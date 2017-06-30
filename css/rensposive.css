@@ -1,0 +1,128 @@
+@charset "UTF-8";
+/* Bazowe style */
+/* Bazowe style dla menu nawigacyjnego */
+@media (max-width: 768px) {
+  /* Menu nawigacyjne START */
+  .navbar {
+    background-color: #3b3b3b; }
+  .navbar .nav-tabs.nav-justified > li > a {
+    float: none;
+    margin: 0 auto; }
+  .navbar .nav-justified > li > a {
+    width: 100%; }
+  .navbar .nav-tabs.nav-justified > li > a {
+    width: 100%; }
+  .navbar-default .navbar-toggle:focus,
+  .navbar-default .navbar-toggle:hover {
+    background-color: #696767; }
+  .navbar-default .navbar-toggle {
+    border: none; }
+  .navbar-default .navbar-toggle .icon-bar {
+    background-color: #ffa500; }
+  .navbar .language {
+    padding-left: 0; }
+  .nav-pills > li:last-child {
+    text-align: center;
+    padding-left: 25px; }
+  .container-fluid > .navbar-collapse,
+  .container-fluid > .navbar-header,
+  .container > .navbar-collapse,
+  .container > .navbar-header {
+    border: none;
+    padding-top: 5px; }
+  /* Menu nawigacyjne STOP */
+  /* Głowna sekcja START */
+  #inner-left-top,
+  #inner-left-down {
+    width: 100%;
+    margin: 10px auto; }
+  .table-responsive {
+    border: none; }
+  #section-right {
+    padding: 30px; }
+  .discount,
+  .check {
+    margin: 0 auto; }
+  .check {
+    margin-top: 30px; }
+  #section-right .check .btn {
+    padding: 10px;
+    font-size: 90%;
+    margin-right: 5px; }
+  .casino h2 {
+    padding-top: 30px; }
+  /* Głowna sekcja STOP */
+  /* Sekcja informacyjne START */
+  .text-position {
+    margin-top: 10px; }
+  form {
+    margin: 0 auto;
+    width: 50%; }
+  /* Sekcja informacyjne STOP */ }
+
+@media (min-width: 768px) and (max-width: 990px) {
+  /* Menu nawigacyjne START */
+  .navbar .nav-justified > li > a {
+    width: 50%; }
+  .navbar .language {
+    padding-left: 20px; }
+  /* Menu nawigacyjne STOP */
+  /* Głowna sekcja START */
+  #inner-left-top,
+  #inner-left-down {
+    width: 100%;
+    margin: 10px auto; }
+  .casino h2 {
+    padding-top: 45px; }
+  .casino p {
+    margin-right: 10px;
+    margin-left: 10px; }
+  /* Głowna sekcja STOP */
+  /* Sekcja informacyjne START */
+  .text-position {
+    margin-top: 10px; }
+  form {
+    margin: 0 auto;
+    width: 50%; }
+  /* Sekcja informacyjne STOP */ }
+
+@media (min-width: 768px) and (max-width: 1115px) {
+  /* Głowna sekcja START */
+  #section-right .check .btn {
+    padding: 10px;
+    font-size: 90%; }
+  /* Głowna sekcja STOP */ }
+
+@media (max-width: 480px) {
+  /* Menu nawigacyjne START */
+  .navbar .nav-justified > li > a {
+    margin-left: 0; }
+  .nav-pills > li:last-child {
+    padding-left: 0px; }
+  /* Menu nawigacyjne STOP */
+  /* Header START */
+  header .btn {
+    font-size: 18px; }
+  /* Header STOP */
+  /* Głowna sekcja START */
+  #section-right {
+    padding: 30px;
+    height: auto; }
+  .discount,
+  .check {
+    margin: 0 auto;
+    width: auto; }
+  .check {
+    margin-top: 15px; }
+  #section-right .check .btn {
+    padding: 10px;
+    margin-top: 5px;
+    font-size: 90%;
+    margin-right: 5px; }
+  .casino {
+    height: 100%; }
+  .casino h2,
+  .casino p {
+    margin-right: 10px;
+    margin-left: 10px; }
+  /* Głowna sekcja STOP */ }

@@ -1,0 +1,299 @@
+@charset "UTF-8";
+/* Bazowe style */
+/* Bazowe style dla menu nawigacyjnego */
+/* Bazowe style */
+/* Bazowe style dla menu nawigacyjnego */
+body {
+  background-color: #ffa500; }
+
+.navbar {
+  background-color: #0e0e0e;
+  border: none;
+  width: 95%;
+  margin: 0 auto;
+  margin-bottom: 10px; }
+  .navbar .nav-tabs.nav-justified > li > a {
+    float: right;
+    width: 20%;
+    color: #ffa500;
+    font-size: 16px;
+    border-bottom: 1px solid #3b3b3b;
+    font-family: "Raleway", sans-serif; }
+  .navbar .nav-tabs.nav-justified > li > a:hover {
+    background-color: #3b3b3b;
+    border: 1px solid #3b3b3b; }
+  .navbar .glyphicon {
+    color: #ffa500;
+    padding: 0 10px;
+    font-size: 1.5em; }
+  .navbar .nav-justified > li > a {
+    color: #ffffff;
+    font-size: 16px;
+    width: 80%;
+    margin-left: 15px;
+    font-family: "Raleway", sans-serif;
+    padding: 10px 0;
+    clear: both; }
+  .navbar .nav-justified > li > a:hover {
+    background-color: #3b3b3b; }
+  .navbar .nav-justified > li > a:focus {
+    background-color: #3b3b3b; }
+  .navbar .language {
+    color: #ffa500;
+    font-size: 16px;
+    padding-left: 50px; }
+  .navbar .language a {
+    color: #ffa500;
+    text-decoration: none;
+    font-family: "Raleway", sans-serif;
+    font-weight: bold; }
+
+/* Bazowe style */
+/* Bazowe style dla menu nawigacyjnego */
+header {
+  background-image: linear-gradient(rgba(82, 82, 122, 0.5), rgba(82, 82, 122, 0.5)), url(../img/header.jpg);
+  height: 450px;
+  background-position: center;
+  background-size: center;
+  position: relative;
+  width: 95%;
+  margin: 0 auto;
+  border-radius: 5px; }
+
+#discount {
+  line-height: 450px; }
+
+.btn {
+  background-color: #ffa500;
+  font-size: 25px;
+  font-family: "Raleway", sans-serif; }
+
+#discount .btn:hover {
+  background-color: #3b3b3b;
+  border: 1px solid #ffa500;
+  color: #ffa500; }
+
+#vertical-button {
+  vertical-align: middle; }
+
+/* Bazowe style */
+/* Bazowe style dla menu nawigacyjnego */
+.inner {
+  background-color: #0e0e0e;
+  height: 240px;
+  border-radius: 5px;
+  margin-bottom: 10px;
+  width: 100%; }
+
+/* Nagłówki h2 START */
+h2 {
+  font-size: 25px;
+  color: #ffa500;
+  font-family: "Raleway", sans-serif;
+  margin-top: 0; }
+
+.table-responsive h2 {
+  padding-top: 15px; }
+
+.casino h2 {
+  padding-top: 25px; }
+
+/* Nagłówki h2 STOP */
+/* Style dla paragrafów START */
+p {
+  font-family: "Raleway", sans-serif;
+  font-size: 16px;
+  color: #ffa500;
+  line-height: 1.5em; }
+
+.casino p,
+.discount p {
+  color: #ffffff;
+  margin-right: 5px;
+  margin-left: 5px; }
+
+/* Style dla paragrafów STOP */
+/* Style dla button START */
+#inner-left-down .btn,
+.btn-play {
+  font-size: 14px;
+  border: 1px solid #ffa500;
+  color: #3b3b3b; }
+
+#inner-left-down .btn:hover,
+#inner-left-down .btn:focus,
+.btn-play:hover,
+.btn-play:focus {
+  font-size: 14px;
+  border: 1px solid #ffa500;
+  background-color: #3b3b3b;
+  color: #ffa500;
+  box-shadow: none; }
+
+.table > tbody > tr.active > td,
+.table > tbody > tr.active > th,
+.table > tbody > tr > td.active,
+.table > tbody > tr > th.active,
+.table > tfoot > tr.active > td,
+.table > tfoot > tr.active > th,
+.table > tfoot > tr > td.active,
+.table > tfoot > tr > th.active,
+.table > thead > tr.active > td,
+.table > thead > tr.active > th,
+.table > thead > tr > td.active,
+.table > thead > tr > th.active {
+  background-color: #3b3b3b;
+  border: 1px solid #3b3b3b;
+  color: #ffffff;
+  font-size: 16px;
+  vertical-align: middle; }
+
+#section-right .check .btn {
+  padding: 10px;
+  margin-right: 15px;
+  font-size: 14px;
+  color: #ffffff; }
+
+#section-right .check .btn:hover,
+#section-right .check .btn:focus {
+  background-color: #3b3b3b;
+  color: #ffffff;
+  box-shadow: none; }
+
+.btn-brown {
+  border: 1px solid #4e2310;
+  background-color: #4e2310; }
+
+.btn-brown:hover,
+.btn-brown:focus {
+  border: 1px solid #4e2310; }
+
+.btn-silver {
+  border: 1px solid #8e8585;
+  background-color: #8e8585; }
+
+.btn-silver:hover,
+.btn-silver:focus {
+  border: 1px solid #8e8585; }
+
+.btn-gold {
+  border: 1px solid #ffa500;
+  background-color: #ffa500; }
+
+.btn-gold:hover,
+.btn-gold:focus {
+  border: 1px solid #ffa500; }
+
+/* Style dla button STOP */
+/* Główny contener START */
+section .container {
+  margin: 0 auto;
+  width: 95%; }
+
+.main-section {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  height: 490px;
+  border-radius: 5px; }
+
+/* Główny contener STOP */
+/* Sekcja lewa START */
+.inner {
+  background-color: #0e0e0e;
+  height: 240px;
+  border-radius: 5px;
+  margin-bottom: 10px;
+  width: 100%;
+  width: 118%;
+  margin-left: -15px; }
+
+#inner-left-down {
+  background-image: linear-gradient(rgba(82, 82, 122, 0.5), rgba(82, 82, 122, 0.5)), url(../img/poker.jpg);
+  background-position: center; }
+
+.casino {
+  height: 85%;
+  width: 50%;
+  background-color: rgba(59, 59, 59, 0.8);
+  border-radius: 5px;
+  text-align: center; }
+
+table {
+  height: 120px; }
+
+/* Sekcja lewa STOP */
+/* Sekcja prawa strona START */
+#section-right {
+  background-image: linear-gradient(rgba(82, 82, 122, 0.5), rgba(82, 82, 122, 0.5)), url(../img/girl-1561989_1280.jpg);
+  background-position: center; }
+
+.inner-section-right {
+  height: auto;
+  background-color: rgba(59, 59, 59, 0.8);
+  border-radius: 5px;
+  text-align: center; }
+
+.discount {
+  width: 60%;
+  padding: 30px;
+  margin-top: 60px; }
+
+.check {
+  width: 90%;
+  padding: 20px;
+  margin-top: 40px; }
+
+/* Sekcja prawa strona STOP */
+/* Bazowe style */
+/* Bazowe style dla menu nawigacyjnego */
+#info-section {
+  background-color: #3b3b3b;
+  width: 95%;
+  height: auto;
+  margin: 0 auto;
+  border-radius: 5px;
+  margin-bottom: 10px; }
+
+#info-section h2 {
+  font-size: 20px;
+  padding-top: 20px; }
+
+#info-section p {
+  color: #ffffff; }
+
+.text-position {
+  margin-top: 50px; }
+
+a:hover {
+  text-decoration: none; }
+
+.form-group {
+  margin-bottom: 5px; }
+
+#info-section .btn {
+  font-size: 14px;
+  margin-bottom: 5px; }
+
+#info-section .btn:hover {
+  font-size: 14px;
+  margin-bottom: 5px;
+  background-color: #3b3b3b;
+  border: 1px solid #ffa500;
+  color: #ffa500; }
+
+/* Bazowe style */
+/* Bazowe style dla menu nawigacyjnego */
+footer {
+  margin: 0 auto;
+  width: 95%;
+  height: auto;
+  background-color: #3b3b3b;
+  border-top-right-radius: 5px;
+  border-top-left-radius: 5px; }
+
+footer p {
+  color: #ffffff;
+  font-size: 10px;
+  text-align: center;
+  padding: 5px;
+  margin: 0; }
