@@ -126,3 +126,10 @@
     margin-right: 10px;
     margin-left: 10px; }
   /* Głowna sekcja STOP */ }
+
+@media (max-width: 380px) {
+  /* Header START */
+  header .btn {
+    width: 95%;
+    font-size: 14px; }
+  /* Header STOP */ }
